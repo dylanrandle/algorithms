@@ -1,7 +1,7 @@
 ## script implementing naive O(mn) Dijkstra's algorithm
 
 def load_graph():
-    with open('downloads/dijkstra.txt') as f:
+    with open('data/dijkstra.txt') as f:
         data = f.readlines()
     graph = {}
     for row in data:

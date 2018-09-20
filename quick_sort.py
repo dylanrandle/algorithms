@@ -58,7 +58,7 @@ class QuickSort():
     def get_comparisons(self):
         return self.comparisons
 
-with open('downloads/quick_sort.txt') as f:
+with open('data/quick_sort.txt') as f:
     content = f.readlines()
 A = [int(x.strip()) for x in content]
 

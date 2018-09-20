@@ -2,7 +2,7 @@ from heapq import heappop, heappush
 
 def read_data():
     stream = []
-    with open('downloads/median.txt') as f:
+    with open('data/median.txt') as f:
         data = f.readlines()
         for d in data:
             stream.append(int(d))

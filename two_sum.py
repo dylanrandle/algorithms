@@ -1,7 +1,7 @@
 ## two-sum problem from Coursera Algorithms specialization
 
 def load_data():
-    with open('downloads/2sum.txt') as f:
+    with open('data/2sum.txt') as f:
         data = f.readlines()
     return list(map(int, data))
 

@@ -56,7 +56,7 @@ def merge_and_count_inversions(B, C, n):
                     break
         return D, inversions
 
-with open('downloads/integer_array.txt') as f:
+with open('data/integer_array.txt') as f:
     content = f.readlines()
 content = [int(x.strip()) for x in content]
 

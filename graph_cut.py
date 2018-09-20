@@ -38,7 +38,7 @@ def rand_min_cut(adjacency_dict):
         num_vertices = len(adjacency_dict.keys())
     return len(adjacency_dict[list(adjacency_dict.keys())[0]])
 
-with open('downloads/karger_min_cut.txt') as f:
+with open('data/karger_min_cut.txt') as f:
     adjacency_list = f.readlines()
 
 # adjacency_list = [

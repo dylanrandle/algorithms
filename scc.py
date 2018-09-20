@@ -8,7 +8,7 @@ def parse_input(raw_in_file):
             edge_list.append(list(map(int, raw_in[i].split())))
     return edge_list
 
-edge_list = parse_input('downloads/scc.txt')
+edge_list = parse_input('data/scc.txt')
 
 import numpy as np
 def parse_edge_list(edge_list, reverse=False):

@@ -1,7 +1,7 @@
 ## greedy algorithms assignment
 
 def read_file():
-    with open('downloads/jobs.txt') as f:
+    with open('data/jobs.txt') as f:
         data = f.readlines()
     num_jobs = int(data[0])
     jobs = {}
@@ -47,7 +47,7 @@ def schedule_by_ratio(num_jobs, jobs):
 print('Ratio total is : %d' % schedule_by_ratio(num_jobs, jobs))
 
 def read_graph():
-    return [list(map(int, x.split(' '))) for x in open('downloads/edges.txt', 'r').read().split('\n')[1:-1]]
+    return [list(map(int, x.split(' '))) for x in open('data/edges.txt', 'r').read().split('\n')[1:-1]]
 
 edges = read_graph()
 
